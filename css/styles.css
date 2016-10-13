@@ -1,0 +1,45 @@
+.sidebar {
+  width: 15%;
+  float: left;
+  background-color: gray;
+  margin-right: 10px;
+  border: 3px solid #333333;
+  padding: 6px;
+  margin: 12px;
+}
+
+.photos {
+  width: 250px;
+  float: right;
+  align: right;
+  margin-left: 10px;
+  padding: 6px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    }
+
+    .sidebar {
+      float:none;
+    }
+    .photos {
+      float:none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: orange;
+  }
+  .sidebar {
+    float:none;
+  }
+  .photos {
+    float:none;
+  }
+}
